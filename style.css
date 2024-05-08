@@ -1,0 +1,111 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef8ec; /* Light green background */
+    min-height: 100vh; /* Ensure body fills the entire viewport height */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+}
+
+/* Header Styles */
+header {
+    background-color: #009933; /* Dark green header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 400px;
+}
+
+.hospital-name {
+    margin-right: 420px;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex: 1; /* Fill remaining vertical space */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #006622; /* Green sidebar */
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #009933; /* Green button */
+    border: none; /* Remove border */
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #007f2b; /* Darker green on hover */
+}
+
+/* Main Content Styles */
+main {
+    flex: 1; /* Fill remaining vertical space */
+    padding: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #009933; /* Dark green header */
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #009933; /* Dark green footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Push footer to the bottom */
+}
